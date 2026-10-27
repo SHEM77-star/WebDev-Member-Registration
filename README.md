@@ -51,3 +51,11 @@ The application can be tested by submitting empty fields, entering invalid infor
 **Institution:** Kirinyaga University  
 **Course:** SPI 2201 – Web Application Development I  
 **Academic Year:** 2026/2027
+
+
+## Live Website
+
+Click the link below to access and test my WebDev Member Registration System.
+
+[Click Here to Open the Live Website](https://shem77-star.github.io/WebDev-Member-Registration/)
+  
