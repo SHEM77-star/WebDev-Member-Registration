@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Member Registration | WebDev</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>WebDev Member Registration</h1>
+    <button id="darkModeToggle" type="button">Dark Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>Register a Member</h2>
+
+      <div id="successMessage" role="status" hidden></div>
+
+      <form id="registrationForm" novalidate>
+        <label for="fullName">Full Name</label>
+        <input id="fullName" name="fullName" type="text">
+        <span class="error" id="fullNameError"></span>
+
+        <label for="email">Email Address</label>
+        <input id="email" name="email" type="email">
+        <span class="error" id="emailError"></span>
+
+        <label for="phone">Phone Number</label>
+        <input id="phone" name="phone" type="tel">
+        <span class="error" id="phoneError"></span>
+
+        <label for="course">Course</label>
+        <select id="course" name="course">
+          <option value="">Select your course</option>
+          <option>Information Technology</option>
+          <option>Computer Science</option>
+          <option>Business Information Technology</option>
+          <option>Other</option>
+        </select>
+        <span class="error" id="courseError"></span>
+
+        <button type="submit">Register Member</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Registered Members (<span id="memberCount">0</span>)</h2>
+      <ul id="memberList"></ul>
+    </section>
+  </main>
+
+  <script>
+    // Temporary placeholder: remove this if you add more scripts.
+  </script>
+</body>
+</html>
